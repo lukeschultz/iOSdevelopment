@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA97DD6A17F560A00050AC66 /* tipicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA97DD6917F560A00050AC66 /* tipicon.png */; };
+		EA97DD6C17F560A30050AC66 /* tipretinaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA97DD6B17F560A30050AC66 /* tipretinaicon.png */; };
 		EAA2AC2917EB4E3000A5182A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2AC2817EB4E3000A5182A /* UIKit.framework */; };
 		EAA2AC2B17EB4E3000A5182A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2AC2A17EB4E3000A5182A /* Foundation.framework */; };
 		EAA2AC2D17EB4E3000A5182A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA2AC2C17EB4E3000A5182A /* CoreGraphics.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA97DD6917F560A00050AC66 /* tipicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipicon.png; sourceTree = "<group>"; };
+		EA97DD6B17F560A30050AC66 /* tipretinaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tipretinaicon.png; sourceTree = "<group>"; };
 		EAA2AC2517EB4E3000A5182A /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA2AC2817EB4E3000A5182A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAA2AC2A17EB4E3000A5182A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +60,8 @@
 		EAA2AC1C17EB4E3000A5182A = {
 			isa = PBXGroup;
 			children = (
+				EA97DD6B17F560A30050AC66 /* tipretinaicon.png */,
+				EA97DD6917F560A00050AC66 /* tipicon.png */,
 				EAA2AC2E17EB4E3000A5182A /* tipcalculator */,
 				EAA2AC2717EB4E3000A5182A /* Frameworks */,
 				EAA2AC2617EB4E3000A5182A /* Products */,
@@ -164,6 +170,8 @@
 				EAA2AC3D17EB4E3000A5182A /* Default@2x.png in Resources */,
 				EAA2AC3F17EB4E3000A5182A /* Default-568h@2x.png in Resources */,
 				EAA2AC4517EB4E3000A5182A /* MADViewController.xib in Resources */,
+				EA97DD6A17F560A00050AC66 /* tipicon.png in Resources */,
+				EA97DD6C17F560A30050AC66 /* tipretinaicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				EAA2AC4A17EB4E3000A5182A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
