@@ -319,6 +319,7 @@
 				EA72C79517E8ADAC00C6B317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

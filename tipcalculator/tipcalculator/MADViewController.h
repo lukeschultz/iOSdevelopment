@@ -18,6 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalDue;
 @property (weak, nonatomic) IBOutlet UILabel *totalDuePerPerson;
 
+
+
 @end
 
 

@@ -1,8 +1,8 @@
 //
 //  MADAppDelegate.m
-//  beatles
+//  SHOTGUN
 //
-//  Created by Luke Schultz on 9/17/13.
+//  Created by Luke Schultz on 10/1/13.
 //  Copyright (c) 2013 Luke Schultz. All rights reserved.
 //
 
@@ -37,8 +37,6 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    
-    self.viewController.title.text
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
