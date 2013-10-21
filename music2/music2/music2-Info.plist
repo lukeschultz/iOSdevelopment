@@ -14,13 +14,13 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>music1.png</string>
-				<string>music2.png</string>
+				<string>icon2.png</string>
+				<string>icon1.png</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>MAD.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>LTS.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

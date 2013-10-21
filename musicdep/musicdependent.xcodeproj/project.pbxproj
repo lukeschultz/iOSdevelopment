@@ -19,6 +19,8 @@
 		881EC421180462E400F3172D /* LTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EC420180462E400F3172D /* LTSViewController.m */; };
 		881EC424180462E400F3172D /* LTSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881EC422180462E400F3172D /* LTSViewController.xib */; };
 		881EC42B180462EC00F3172D /* artistalbums.plist in Resources */ = {isa = PBXBuildFile; fileRef = 881EC42A180462EC00F3172D /* artistalbums.plist */; };
+		EA1429921814F5760005686D /* music1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1429911814F5760005686D /* music1.png */; };
+		EA1429941814F5780005686D /* music2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1429931814F5780005686D /* music2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		881EC420180462E400F3172D /* LTSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSViewController.m; sourceTree = "<group>"; };
 		881EC423180462E400F3172D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTSViewController.xib; sourceTree = "<group>"; };
 		881EC42A180462EC00F3172D /* artistalbums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistalbums.plist; sourceTree = "<group>"; };
+		EA1429911814F5760005686D /* music1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music1.png; sourceTree = "<group>"; };
+		EA1429931814F5780005686D /* music2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		881EC3FB180462E300F3172D = {
 			isa = PBXGroup;
 			children = (
+				EA1429931814F5780005686D /* music2.png */,
+				EA1429911814F5760005686D /* music1.png */,
 				881EC42A180462EC00F3172D /* artistalbums.plist */,
 				881EC40D180462E400F3172D /* musicdep */,
 				881EC406180462E400F3172D /* Frameworks */,
@@ -168,6 +174,8 @@
 				881EC41E180462E400F3172D /* Default-568h@2x.png in Resources */,
 				881EC424180462E400F3172D /* LTSViewController.xib in Resources */,
 				881EC42B180462EC00F3172D /* artistalbums.plist in Resources */,
+				EA1429921814F5760005686D /* music1.png in Resources */,
+				EA1429941814F5780005686D /* music2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
