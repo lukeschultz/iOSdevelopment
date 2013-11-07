@@ -20,6 +20,8 @@
 		EA31DA381822AC8F00624CF0 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31DA371822AC8F00624CF0 /* MADMasterViewController.m */; };
 		EA31DA3B1822AC8F00624CF0 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31DA3A1822AC8F00624CF0 /* MADDetailViewController.m */; };
 		EA31DA421822B18300624CF0 /* harrypotter.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA31DA411822B18300624CF0 /* harrypotter.plist */; };
+		EA9B7726182BF63700354CFE /* harryicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9B7725182BF63700354CFE /* harryicon.png */; };
+		EA9B7728182BF64300354CFE /* harryretina.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9B7727182BF64300354CFE /* harryretina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		EA31DA391822AC8F00624CF0 /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
 		EA31DA3A1822AC8F00624CF0 /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
 		EA31DA411822B18300624CF0 /* harrypotter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = harrypotter.plist; sourceTree = "<group>"; };
+		EA9B7725182BF63700354CFE /* harryicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harryicon.png; sourceTree = "<group>"; };
+		EA9B7727182BF64300354CFE /* harryretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harryretina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		EA31DA0F1822AC8F00624CF0 = {
 			isa = PBXGroup;
 			children = (
+				EA9B7727182BF64300354CFE /* harryretina.png */,
+				EA9B7725182BF63700354CFE /* harryicon.png */,
 				EA31DA411822B18300624CF0 /* harrypotter.plist */,
 				EA31DA211822AC8F00624CF0 /* HarryPotter */,
 				EA31DA1A1822AC8F00624CF0 /* Frameworks */,
@@ -173,6 +179,8 @@
 				EA31DA321822AC8F00624CF0 /* Default-568h@2x.png in Resources */,
 				EA31DA351822AC8F00624CF0 /* MainStoryboard.storyboard in Resources */,
 				EA31DA421822B18300624CF0 /* harrypotter.plist in Resources */,
+				EA9B7726182BF63700354CFE /* harryicon.png in Resources */,
+				EA9B7728182BF64300354CFE /* harryretina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +319,7 @@
 				EA31DA401822AC8F00624CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
