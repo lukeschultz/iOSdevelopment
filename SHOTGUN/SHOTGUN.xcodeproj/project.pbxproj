@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		EA82206F17FCE73100CEC041 /* shotgunicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA82206E17FCE73100CEC041 /* shotgunicon.png */; };
 		EA82207117FCE73400CEC041 /* shotgunretina.png in Resources */ = {isa = PBXBuildFile; fileRef = EA82207017FCE73400CEC041 /* shotgunretina.png */; };
+		EA9EBDA9182F430A00C0239A /* shotfired.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EBDA8182F430A00C0239A /* shotfired.png */; };
+		EA9EBDAB182F430F00C0239A /* shot.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EBDAA182F430F00C0239A /* shot.png */; };
+		EA9EBDAD182F431B00C0239A /* shotgun.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EBDAC182F431B00C0239A /* shotgun.png */; };
+		EA9EBDAF182F432100C0239A /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EBDAE182F432100C0239A /* round.png */; };
 		EAEA68C017FBBE6300FA8B7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA68BF17FBBE6300FA8B7C /* UIKit.framework */; };
 		EAEA68C217FBBE6300FA8B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA68C117FBBE6300FA8B7C /* Foundation.framework */; };
 		EAEA68C417FBBE6300FA8B7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEA68C317FBBE6300FA8B7C /* CoreGraphics.framework */; };
@@ -29,6 +33,10 @@
 /* Begin PBXFileReference section */
 		EA82206E17FCE73100CEC041 /* shotgunicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotgunicon.png; sourceTree = "<group>"; };
 		EA82207017FCE73400CEC041 /* shotgunretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotgunretina.png; sourceTree = "<group>"; };
+		EA9EBDA8182F430A00C0239A /* shotfired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotfired.png; sourceTree = "<group>"; };
+		EA9EBDAA182F430F00C0239A /* shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shot.png; sourceTree = "<group>"; };
+		EA9EBDAC182F431B00C0239A /* shotgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shotgun.png; sourceTree = "<group>"; };
+		EA9EBDAE182F432100C0239A /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
 		EAEA68BC17FBBE6300FA8B7C /* SHOTGUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHOTGUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEA68BF17FBBE6300FA8B7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAEA68C117FBBE6300FA8B7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				EAEA68E617FBCDB600FA8B7C /* shot.png */,
+				EA9EBDAC182F431B00C0239A /* shotgun.png */,
 				EAEA68E217FBCBB200FA8B7C /* shotgun.png */,
+				EA9EBDAA182F430F00C0239A /* shot.png */,
+				EA9EBDA8182F430A00C0239A /* shotfired.png */,
 				EAEA68E817FBCE1200FA8B7C /* shotfired.png */,
+				EA9EBDAE182F432100C0239A /* round.png */,
 				EAEA68E417FBCCEE00FA8B7C /* round.png */,
 				EAEA68CE17FBBE6300FA8B7C /* MADAppDelegate.h */,
 				EAEA68CF17FBBE6300FA8B7C /* MADAppDelegate.m */,
@@ -188,6 +200,10 @@
 				EAEA68E917FBCE1200FA8B7C /* shotfired.png in Resources */,
 				EA82206F17FCE73100CEC041 /* shotgunicon.png in Resources */,
 				EA82207117FCE73400CEC041 /* shotgunretina.png in Resources */,
+				EA9EBDA9182F430A00C0239A /* shotfired.png in Resources */,
+				EA9EBDAB182F430F00C0239A /* shot.png in Resources */,
+				EA9EBDAD182F431B00C0239A /* shotgun.png in Resources */,
+				EA9EBDAF182F432100C0239A /* round.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

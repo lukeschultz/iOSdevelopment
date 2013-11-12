@@ -1,15 +1,15 @@
 //
 //  MADViewController.h
-//  SHOTGUN
+//  Shotgun!
 //
-//  Created by Luke Schultz on 10/1/13.
+//  Created by Luke Schultz on 11/9/13.
 //  Copyright (c) 2013 Luke Schultz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#include <stdlib.h>
 
 @interface MADViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIImageView *shotgun;
 @property (weak, nonatomic) IBOutlet UIImageView *round1;
 - (IBAction)shoot:(UIButton *)sender;

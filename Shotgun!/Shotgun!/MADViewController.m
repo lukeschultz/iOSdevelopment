@@ -1,8 +1,8 @@
 //
 //  MADViewController.m
-//  SHOTGUN
+//  Shotgun!
 //
-//  Created by Luke Schultz on 10/1/13.
+//  Created by Luke Schultz on 11/9/13.
 //  Copyright (c) 2013 Luke Schultz. All rights reserved.
 //
 
@@ -11,7 +11,6 @@
 @interface MADViewController ()
 
 @end
-
 
 @implementation MADViewController
 
@@ -35,7 +34,8 @@
 - (IBAction)shoot:(UIButton *)sender {
     
     
-    if (self.position == self.bulletPosition) { 
+    if (self.position == self.bulletPosition) { //shot fired
+        // fire shotgun 1 time ... change alpha value of blast image to 1
         _blastImage.alpha = 1;
         _round1.alpha = 0;
         _winner.alpha = 1;
