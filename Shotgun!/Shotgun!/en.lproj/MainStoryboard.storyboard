@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -253,7 +253,6 @@
         <!--View Controller-->
         <scene sceneID="84d-a5-vog">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ydw-0b-8hJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FhI-Lg-C0B" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zjk-sB-Djw">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
@@ -298,7 +297,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="399" id="Wey-Z4-BhU"/>
                                 </constraints>
-                                <mutableString key="text">Riding shotgun refers to the practice of sitting alongside the driver in a moving vehicle. The expression "riding shotgun" is derived from "shotgun messenger", a colloquial term for "express messenger", in the days of stagecoach travel the person in the position next to the driver. However, apparently the phrase "riding shotgun" was not coined until 1919. It was later used in print and especially film depiction of stagecoaches and wagons in the Old West in danger of being robbed or attacked by bandits. A special armed employee of the express service using the stage for transportation of bullion or cash would sit beside the driver, carrying a short shotgun (or alternatively a rifle)[citation needed], to provide an armed response in case of threat to the cargo, which was usually a strongbox. Absence of an armed person in that position often signaled that the stage was not carrying a strongbox, but only passengers. More recently, the term has been applied to a game, typically played by groups of friends to determine who rides beside the driver in a car.</mutableString>
+                                <string key="text">Riding shotgun refers to the practice of sitting alongside the driver in a moving vehicle. The expression "riding shotgun" is derived from "shotgun messenger", a colloquial term for "express messenger", in the days of stagecoach travel the person in the position next to the driver. However, apparently the phrase "riding shotgun" was not coined until 1919. It was later used in print and especially film depiction of stagecoaches and wagons in the Old West in danger of being robbed or attacked by bandits. A special armed employee of the express service using the stage for transportation of bullion or cash would sit beside the driver, carrying a short shotgun (or alternatively a rifle)[citation needed], to provide an armed response in case of threat to the cargo, which was usually a strongbox. Absence of an armed person in that position often signaled that the stage was not carrying a strongbox, but only passengers. More recently, the term has been applied to a game, typically played by groups of friends to determine who rides beside the driver in a car.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -328,6 +327,7 @@
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ydw-0b-8hJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="514" y="745"/>
         </scene>
@@ -528,7 +528,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ox9-hi-H7K"/>
         <segue reference="efi-MQ-WYL"/>
+        <segue reference="ox9-hi-H7K"/>
     </inferredMetricsTieBreakers>
 </document>
