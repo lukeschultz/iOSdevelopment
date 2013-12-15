@@ -7,111 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		753E80DE18157B5F00F65A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753E80DD18157B5F00F65A1A /* UIKit.framework */; };
-		753E80E018157B5F00F65A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753E80DF18157B5F00F65A1A /* Foundation.framework */; };
-		753E80E218157B5F00F65A1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753E80E118157B5F00F65A1A /* CoreGraphics.framework */; };
-		753E80E818157B5F00F65A1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 753E80E618157B5F00F65A1A /* InfoPlist.strings */; };
-		753E80EA18157B5F00F65A1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753E80E918157B5F00F65A1A /* main.m */; };
-		753E80EE18157B5F00F65A1A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753E80ED18157B5F00F65A1A /* MADAppDelegate.m */; };
-		753E80F018157B5F00F65A1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 753E80EF18157B5F00F65A1A /* Default.png */; };
-		753E80F218157B5F00F65A1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753E80F118157B5F00F65A1A /* Default@2x.png */; };
-		753E80F418157B5F00F65A1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 753E80F318157B5F00F65A1A /* Default-568h@2x.png */; };
-		753E80F718157B5F00F65A1A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753E80F518157B5F00F65A1A /* MainStoryboard.storyboard */; };
-		753E80FA18157B5F00F65A1A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753E80F918157B5F00F65A1A /* MADViewController.m */; };
-		753E8103181589F300F65A1A /* qwordswithoutu1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 753E8102181589F300F65A1A /* qwordswithoutu1.plist */; };
-		753E8105181599E300F65A1A /* scrabbletile30.png in Resources */ = {isa = PBXBuildFile; fileRef = 753E8104181599E200F65A1A /* scrabbletile30.png */; };
-		753E81071815A90F00F65A1A /* qwordswithoutu2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 753E81061815A90F00F65A1A /* qwordswithoutu2.plist */; };
+		882957781816D27F00885E24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882957771816D27F00885E24 /* UIKit.framework */; };
+		8829577A1816D27F00885E24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882957791816D27F00885E24 /* Foundation.framework */; };
+		8829577C1816D27F00885E24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8829577B1816D27F00885E24 /* CoreGraphics.framework */; };
+		882957821816D27F00885E24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 882957801816D27F00885E24 /* InfoPlist.strings */; };
+		882957841816D27F00885E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882957831816D27F00885E24 /* main.m */; };
+		882957881816D28000885E24 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882957871816D28000885E24 /* MADAppDelegate.m */; };
+		8829578A1816D28000885E24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 882957891816D28000885E24 /* Default.png */; };
+		8829578C1816D28000885E24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8829578B1816D28000885E24 /* Default@2x.png */; };
+		8829578E1816D28000885E24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8829578D1816D28000885E24 /* Default-568h@2x.png */; };
+		882957911816D28000885E24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8829578F1816D28000885E24 /* MainStoryboard.storyboard */; };
+		882957941816D28000885E24 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882957931816D28000885E24 /* MADViewController.m */; };
+		8829579B1816D43F00885E24 /* qwordswithoutu1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8829579A1816D43F00885E24 /* qwordswithoutu1.plist */; };
+		8829579D1816DA7D00885E24 /* scrabble.png in Resources */ = {isa = PBXBuildFile; fileRef = 8829579C1816DA7D00885E24 /* scrabble.png */; };
+		8829579F1816DA8100885E24 /* scrabbleretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 8829579E1816DA8100885E24 /* scrabbleretina.png */; };
+		882957A11816DF5C00885E24 /* scrabbletile30.png in Resources */ = {isa = PBXBuildFile; fileRef = 882957A01816DF5C00885E24 /* scrabbletile30.png */; };
+		EA1DC545185D913C00BC05A1 /* qwordswithoutu2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1DC544185D913C00BC05A1 /* qwordswithoutu2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		753E80DA18157B5F00F65A1A /* scrabbleQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrabbleQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		753E80DD18157B5F00F65A1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		753E80DF18157B5F00F65A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		753E80E118157B5F00F65A1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		753E80E518157B5F00F65A1A /* scrabbleQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrabbleQ-Info.plist"; sourceTree = "<group>"; };
-		753E80E718157B5F00F65A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		753E80E918157B5F00F65A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		753E80EB18157B5F00F65A1A /* scrabbleQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrabbleQ-Prefix.pch"; sourceTree = "<group>"; };
-		753E80EC18157B5F00F65A1A /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
-		753E80ED18157B5F00F65A1A /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
-		753E80EF18157B5F00F65A1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		753E80F118157B5F00F65A1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		753E80F318157B5F00F65A1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		753E80F618157B5F00F65A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		753E80F818157B5F00F65A1A /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
-		753E80F918157B5F00F65A1A /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
-		753E8102181589F300F65A1A /* qwordswithoutu1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu1.plist; sourceTree = "<group>"; };
-		753E8104181599E200F65A1A /* scrabbletile30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrabbletile30.png; sourceTree = "<group>"; };
-		753E81061815A90F00F65A1A /* qwordswithoutu2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu2.plist; sourceTree = "<group>"; };
+		882957741816D27F00885E24 /* scrabbleQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrabbleQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		882957771816D27F00885E24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		882957791816D27F00885E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8829577B1816D27F00885E24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8829577F1816D27F00885E24 /* scrabbleQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrabbleQ-Info.plist"; sourceTree = "<group>"; };
+		882957811816D27F00885E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		882957831816D27F00885E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		882957851816D27F00885E24 /* scrabbleQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrabbleQ-Prefix.pch"; sourceTree = "<group>"; };
+		882957861816D28000885E24 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		882957871816D28000885E24 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		882957891816D28000885E24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8829578B1816D28000885E24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8829578D1816D28000885E24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		882957901816D28000885E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		882957921816D28000885E24 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		882957931816D28000885E24 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		8829579A1816D43F00885E24 /* qwordswithoutu1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu1.plist; sourceTree = "<group>"; };
+		8829579C1816DA7D00885E24 /* scrabble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrabble.png; sourceTree = "<group>"; };
+		8829579E1816DA8100885E24 /* scrabbleretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrabbleretina.png; sourceTree = "<group>"; };
+		882957A01816DF5C00885E24 /* scrabbletile30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrabbletile30.png; sourceTree = "<group>"; };
+		EA1DC544185D913C00BC05A1 /* qwordswithoutu2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		753E80D718157B5F00F65A1A /* Frameworks */ = {
+		882957711816D27F00885E24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753E80DE18157B5F00F65A1A /* UIKit.framework in Frameworks */,
-				753E80E018157B5F00F65A1A /* Foundation.framework in Frameworks */,
-				753E80E218157B5F00F65A1A /* CoreGraphics.framework in Frameworks */,
+				882957781816D27F00885E24 /* UIKit.framework in Frameworks */,
+				8829577A1816D27F00885E24 /* Foundation.framework in Frameworks */,
+				8829577C1816D27F00885E24 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		753E80D118157B5F00F65A1A = {
+		8829576B1816D27F00885E24 = {
 			isa = PBXGroup;
 			children = (
-				753E81061815A90F00F65A1A /* qwordswithoutu2.plist */,
-				753E8104181599E200F65A1A /* scrabbletile30.png */,
-				753E8102181589F300F65A1A /* qwordswithoutu1.plist */,
-				753E80E318157B5F00F65A1A /* scrabbleQ */,
-				753E80DC18157B5F00F65A1A /* Frameworks */,
-				753E80DB18157B5F00F65A1A /* Products */,
+				8829579E1816DA8100885E24 /* scrabbleretina.png */,
+				EA1DC544185D913C00BC05A1 /* qwordswithoutu2.plist */,
+				882957A01816DF5C00885E24 /* scrabbletile30.png */,
+				8829579C1816DA7D00885E24 /* scrabble.png */,
+				8829579A1816D43F00885E24 /* qwordswithoutu1.plist */,
+				8829577D1816D27F00885E24 /* scrabbleQ */,
+				882957761816D27F00885E24 /* Frameworks */,
+				882957751816D27F00885E24 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		753E80DB18157B5F00F65A1A /* Products */ = {
+		882957751816D27F00885E24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				753E80DA18157B5F00F65A1A /* scrabbleQ.app */,
+				882957741816D27F00885E24 /* scrabbleQ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		753E80DC18157B5F00F65A1A /* Frameworks */ = {
+		882957761816D27F00885E24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				753E80DD18157B5F00F65A1A /* UIKit.framework */,
-				753E80DF18157B5F00F65A1A /* Foundation.framework */,
-				753E80E118157B5F00F65A1A /* CoreGraphics.framework */,
+				882957771816D27F00885E24 /* UIKit.framework */,
+				882957791816D27F00885E24 /* Foundation.framework */,
+				8829577B1816D27F00885E24 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		753E80E318157B5F00F65A1A /* scrabbleQ */ = {
+		8829577D1816D27F00885E24 /* scrabbleQ */ = {
 			isa = PBXGroup;
 			children = (
-				753E80EC18157B5F00F65A1A /* MADAppDelegate.h */,
-				753E80ED18157B5F00F65A1A /* MADAppDelegate.m */,
-				753E80F518157B5F00F65A1A /* MainStoryboard.storyboard */,
-				753E80F818157B5F00F65A1A /* MADViewController.h */,
-				753E80F918157B5F00F65A1A /* MADViewController.m */,
-				753E80E418157B5F00F65A1A /* Supporting Files */,
+				882957861816D28000885E24 /* MADAppDelegate.h */,
+				882957871816D28000885E24 /* MADAppDelegate.m */,
+				8829578F1816D28000885E24 /* MainStoryboard.storyboard */,
+				882957921816D28000885E24 /* MADViewController.h */,
+				882957931816D28000885E24 /* MADViewController.m */,
+				8829577E1816D27F00885E24 /* Supporting Files */,
 			);
 			path = scrabbleQ;
 			sourceTree = "<group>";
 		};
-		753E80E418157B5F00F65A1A /* Supporting Files */ = {
+		8829577E1816D27F00885E24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				753E80E518157B5F00F65A1A /* scrabbleQ-Info.plist */,
-				753E80E618157B5F00F65A1A /* InfoPlist.strings */,
-				753E80E918157B5F00F65A1A /* main.m */,
-				753E80EB18157B5F00F65A1A /* scrabbleQ-Prefix.pch */,
-				753E80EF18157B5F00F65A1A /* Default.png */,
-				753E80F118157B5F00F65A1A /* Default@2x.png */,
-				753E80F318157B5F00F65A1A /* Default-568h@2x.png */,
+				8829577F1816D27F00885E24 /* scrabbleQ-Info.plist */,
+				882957801816D27F00885E24 /* InfoPlist.strings */,
+				882957831816D27F00885E24 /* main.m */,
+				882957851816D27F00885E24 /* scrabbleQ-Prefix.pch */,
+				882957891816D28000885E24 /* Default.png */,
+				8829578B1816D28000885E24 /* Default@2x.png */,
+				8829578D1816D28000885E24 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,13 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		753E80D918157B5F00F65A1A /* scrabbleQ */ = {
+		882957731816D27F00885E24 /* scrabbleQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 753E80FD18157B5F00F65A1A /* Build configuration list for PBXNativeTarget "scrabbleQ" */;
+			buildConfigurationList = 882957971816D28000885E24 /* Build configuration list for PBXNativeTarget "scrabbleQ" */;
 			buildPhases = (
-				753E80D618157B5F00F65A1A /* Sources */,
-				753E80D718157B5F00F65A1A /* Frameworks */,
-				753E80D818157B5F00F65A1A /* Resources */,
+				882957701816D27F00885E24 /* Sources */,
+				882957711816D27F00885E24 /* Frameworks */,
+				882957721816D27F00885E24 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -133,80 +139,82 @@
 			);
 			name = scrabbleQ;
 			productName = scrabbleQ;
-			productReference = 753E80DA18157B5F00F65A1A /* scrabbleQ.app */;
+			productReference = 882957741816D27F00885E24 /* scrabbleQ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		753E80D218157B5F00F65A1A /* Project object */ = {
+		8829576C1816D27F00885E24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MAD;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Aileen Pierce";
+				ORGANIZATIONNAME = "Luke Tyler Schultz";
 			};
-			buildConfigurationList = 753E80D518157B5F00F65A1A /* Build configuration list for PBXProject "scrabbleQ" */;
+			buildConfigurationList = 8829576F1816D27F00885E24 /* Build configuration list for PBXProject "scrabbleQ" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 753E80D118157B5F00F65A1A;
-			productRefGroup = 753E80DB18157B5F00F65A1A /* Products */;
+			mainGroup = 8829576B1816D27F00885E24;
+			productRefGroup = 882957751816D27F00885E24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				753E80D918157B5F00F65A1A /* scrabbleQ */,
+				882957731816D27F00885E24 /* scrabbleQ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		753E80D818157B5F00F65A1A /* Resources */ = {
+		882957721816D27F00885E24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753E80E818157B5F00F65A1A /* InfoPlist.strings in Resources */,
-				753E80F018157B5F00F65A1A /* Default.png in Resources */,
-				753E80F218157B5F00F65A1A /* Default@2x.png in Resources */,
-				753E80F418157B5F00F65A1A /* Default-568h@2x.png in Resources */,
-				753E80F718157B5F00F65A1A /* MainStoryboard.storyboard in Resources */,
-				753E8103181589F300F65A1A /* qwordswithoutu1.plist in Resources */,
-				753E8105181599E300F65A1A /* scrabbletile30.png in Resources */,
-				753E81071815A90F00F65A1A /* qwordswithoutu2.plist in Resources */,
+				882957821816D27F00885E24 /* InfoPlist.strings in Resources */,
+				8829578A1816D28000885E24 /* Default.png in Resources */,
+				8829578C1816D28000885E24 /* Default@2x.png in Resources */,
+				8829578E1816D28000885E24 /* Default-568h@2x.png in Resources */,
+				882957911816D28000885E24 /* MainStoryboard.storyboard in Resources */,
+				8829579B1816D43F00885E24 /* qwordswithoutu1.plist in Resources */,
+				8829579D1816DA7D00885E24 /* scrabble.png in Resources */,
+				8829579F1816DA8100885E24 /* scrabbleretina.png in Resources */,
+				882957A11816DF5C00885E24 /* scrabbletile30.png in Resources */,
+				EA1DC545185D913C00BC05A1 /* qwordswithoutu2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		753E80D618157B5F00F65A1A /* Sources */ = {
+		882957701816D27F00885E24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753E80EA18157B5F00F65A1A /* main.m in Sources */,
-				753E80EE18157B5F00F65A1A /* MADAppDelegate.m in Sources */,
-				753E80FA18157B5F00F65A1A /* MADViewController.m in Sources */,
+				882957841816D27F00885E24 /* main.m in Sources */,
+				882957881816D28000885E24 /* MADAppDelegate.m in Sources */,
+				882957941816D28000885E24 /* MADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		753E80E618157B5F00F65A1A /* InfoPlist.strings */ = {
+		882957801816D27F00885E24 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				753E80E718157B5F00F65A1A /* en */,
+				882957811816D27F00885E24 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		753E80F518157B5F00F65A1A /* MainStoryboard.storyboard */ = {
+		8829578F1816D28000885E24 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				753E80F618157B5F00F65A1A /* en */,
+				882957901816D28000885E24 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -214,7 +222,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		753E80FB18157B5F00F65A1A /* Debug */ = {
+		882957951816D28000885E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		753E80FC18157B5F00F65A1A /* Release */ = {
+		882957961816D28000885E24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +278,7 @@
 			};
 			name = Release;
 		};
-		753E80FE18157B5F00F65A1A /* Debug */ = {
+		882957981816D28000885E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -281,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		753E80FF18157B5F00F65A1A /* Release */ = {
+		882957991816D28000885E24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -295,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		753E80D518157B5F00F65A1A /* Build configuration list for PBXProject "scrabbleQ" */ = {
+		8829576F1816D27F00885E24 /* Build configuration list for PBXProject "scrabbleQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				753E80FB18157B5F00F65A1A /* Debug */,
-				753E80FC18157B5F00F65A1A /* Release */,
+				882957951816D28000885E24 /* Debug */,
+				882957961816D28000885E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		753E80FD18157B5F00F65A1A /* Build configuration list for PBXNativeTarget "scrabbleQ" */ = {
+		882957971816D28000885E24 /* Build configuration list for PBXNativeTarget "scrabbleQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				753E80FE18157B5F00F65A1A /* Debug */,
-				753E80FF18157B5F00F65A1A /* Release */,
+				882957981816D28000885E24 /* Debug */,
+				882957991816D28000885E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 753E80D218157B5F00F65A1A /* Project object */;
+	rootObject = 8829576C1816D27F00885E24 /* Project object */;
 }

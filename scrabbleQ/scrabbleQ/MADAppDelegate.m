@@ -2,8 +2,8 @@
 //  MADAppDelegate.m
 //  scrabbleQ
 //
-//  Created by Aileen Pierce on 10/21/13.
-//  Copyright (c) 2013 Aileen Pierce. All rights reserved.
+//  Created by Luke Tyler Schultz on 10/22/13.
+//  Copyright (c) 2013 Luke Tyler Schultz. All rights reserved.
 //
 
 #import "MADAppDelegate.h"

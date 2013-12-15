@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "753E80D918157B5F00F65A1A"
+               BlueprintIdentifier = "882957731816D27F00885E24"
                BuildableName = "scrabbleQ.app"
                BlueprintName = "scrabbleQ"
                ReferencedContainer = "container:scrabbleQ.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "753E80D918157B5F00F65A1A"
+            BlueprintIdentifier = "882957731816D27F00885E24"
             BuildableName = "scrabbleQ.app"
             BlueprintName = "scrabbleQ"
             ReferencedContainer = "container:scrabbleQ.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "753E80D918157B5F00F65A1A"
+            BlueprintIdentifier = "882957731816D27F00885E24"
             BuildableName = "scrabbleQ.app"
             BlueprintName = "scrabbleQ"
             ReferencedContainer = "container:scrabbleQ.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "753E80D918157B5F00F65A1A"
+            BlueprintIdentifier = "882957731816D27F00885E24"
             BuildableName = "scrabbleQ.app"
             BlueprintName = "scrabbleQ"
             ReferencedContainer = "container:scrabbleQ.xcodeproj">
