@@ -19,8 +19,6 @@
 		EA47F8FF183538420081E6AD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA47F8FD183538420081E6AD /* MainStoryboard.storyboard */; };
 		EA47F902183538420081E6AD /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA47F901183538420081E6AD /* MADViewController.m */; };
 		EA47F909183539610081E6AD /* knicks.png in Resources */ = {isa = PBXBuildFile; fileRef = EA47F908183539610081E6AD /* knicks.png */; };
-		EA669999185D89A000531E19 /* knicksreg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA669998185D899F00531E19 /* knicksreg.png */; };
-		EA66999B185D89AC00531E19 /* knicksret.png in Resources */ = {isa = PBXBuildFile; fileRef = EA66999A185D89AC00531E19 /* knicksret.png */; };
 		EA66999D185D8A1700531E19 /* knicksicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA66999C185D8A1700531E19 /* knicksicon.png */; };
 		EA66999F185D8A1A00531E19 /* knicksicon2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA66999E185D8A1A00531E19 /* knicksicon2.png */; };
 /* End PBXBuildFile section */
@@ -43,8 +41,6 @@
 		EA47F900183538420081E6AD /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		EA47F901183538420081E6AD /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		EA47F908183539610081E6AD /* knicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knicks.png; sourceTree = "<group>"; };
-		EA669998185D899F00531E19 /* knicksreg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knicksreg.png; sourceTree = "<group>"; };
-		EA66999A185D89AC00531E19 /* knicksret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knicksret.png; sourceTree = "<group>"; };
 		EA66999C185D8A1700531E19 /* knicksicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knicksicon.png; sourceTree = "<group>"; };
 		EA66999E185D8A1A00531E19 /* knicksicon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knicksicon2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +64,6 @@
 			children = (
 				EA66999E185D8A1A00531E19 /* knicksicon2.png */,
 				EA66999C185D8A1700531E19 /* knicksicon.png */,
-				EA66999A185D89AC00531E19 /* knicksret.png */,
-				EA669998185D899F00531E19 /* knicksreg.png */,
 				EA47F908183539610081E6AD /* knicks.png */,
 				EA47F8EB183538420081E6AD /* animation */,
 				EA47F8E4183538420081E6AD /* Frameworks */,
@@ -180,8 +174,6 @@
 				EA47F8FC183538420081E6AD /* Default-568h@2x.png in Resources */,
 				EA47F8FF183538420081E6AD /* MainStoryboard.storyboard in Resources */,
 				EA47F909183539610081E6AD /* knicks.png in Resources */,
-				EA669999185D89A000531E19 /* knicksreg.png in Resources */,
-				EA66999B185D89AC00531E19 /* knicksret.png in Resources */,
 				EA66999D185D8A1700531E19 /* knicksicon.png in Resources */,
 				EA66999F185D8A1A00531E19 /* knicksicon2.png in Resources */,
 			);
