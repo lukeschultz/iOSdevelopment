@@ -26,14 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EAF632C2185D8495006E1EE0 /* sportsimagelab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportsimagelab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF632C2185D8495006E1EE0 /* NYGvsNYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYGvsNYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF632C5185D8495006E1EE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAF632C7185D8495006E1EE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAF632C9185D8495006E1EE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EAF632CD185D8495006E1EE0 /* sportsimagelab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sportsimagelab-Info.plist"; sourceTree = "<group>"; };
+		EAF632CD185D8495006E1EE0 /* NYGvsNYJ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NYGvsNYJ-Info.plist"; sourceTree = "<group>"; };
 		EAF632CF185D8495006E1EE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAF632D1185D8495006E1EE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAF632D3185D8495006E1EE0 /* sportsimagelab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sportsimagelab-Prefix.pch"; sourceTree = "<group>"; };
+		EAF632D3185D8495006E1EE0 /* NYGvsNYJ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYGvsNYJ-Prefix.pch"; sourceTree = "<group>"; };
 		EAF632D4185D8495006E1EE0 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
 		EAF632D5185D8495006E1EE0 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
 		EAF632D7185D8495006E1EE0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		EAF632C3185D8495006E1EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAF632C2185D8495006E1EE0 /* sportsimagelab.app */,
+				EAF632C2185D8495006E1EE0 /* NYGvsNYJ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,10 +111,10 @@
 		EAF632CC185D8495006E1EE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAF632CD185D8495006E1EE0 /* sportsimagelab-Info.plist */,
+				EAF632CD185D8495006E1EE0 /* NYGvsNYJ-Info.plist */,
 				EAF632CE185D8495006E1EE0 /* InfoPlist.strings */,
 				EAF632D1185D8495006E1EE0 /* main.m */,
-				EAF632D3185D8495006E1EE0 /* sportsimagelab-Prefix.pch */,
+				EAF632D3185D8495006E1EE0 /* NYGvsNYJ-Prefix.pch */,
 				EAF632D7185D8495006E1EE0 /* Default.png */,
 				EAF632D9185D8495006E1EE0 /* Default@2x.png */,
 				EAF632DB185D8495006E1EE0 /* Default-568h@2x.png */,
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAF632C1185D8495006E1EE0 /* sportsimagelab */ = {
+		EAF632C1185D8495006E1EE0 /* NYGvsNYJ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAF632E5185D8495006E1EE0 /* Build configuration list for PBXNativeTarget "sportsimagelab" */;
+			buildConfigurationList = EAF632E5185D8495006E1EE0 /* Build configuration list for PBXNativeTarget "NYGvsNYJ" */;
 			buildPhases = (
 				EAF632BE185D8495006E1EE0 /* Sources */,
 				EAF632BF185D8495006E1EE0 /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = sportsimagelab;
+			name = NYGvsNYJ;
 			productName = sportsimagelab;
-			productReference = EAF632C2185D8495006E1EE0 /* sportsimagelab.app */;
+			productReference = EAF632C2185D8495006E1EE0 /* NYGvsNYJ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Luke Schultz";
 			};
-			buildConfigurationList = EAF632BD185D8495006E1EE0 /* Build configuration list for PBXProject "sportsimagelab" */;
+			buildConfigurationList = EAF632BD185D8495006E1EE0 /* Build configuration list for PBXProject "NYGvsNYJ" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAF632C1185D8495006E1EE0 /* sportsimagelab */,
+				EAF632C1185D8495006E1EE0 /* NYGvsNYJ */,
 			);
 		};
 /* End PBXProject section */
@@ -284,9 +284,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sportsimagelab/sportsimagelab-Prefix.pch";
-				INFOPLIST_FILE = "sportsimagelab/sportsimagelab-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "sportsimagelab/NYGvsNYJ-Prefix.pch";
+				INFOPLIST_FILE = "sportsimagelab/NYGvsNYJ-Info.plist";
+				PRODUCT_NAME = NYGvsNYJ;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -295,9 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sportsimagelab/sportsimagelab-Prefix.pch";
-				INFOPLIST_FILE = "sportsimagelab/sportsimagelab-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "sportsimagelab/NYGvsNYJ-Prefix.pch";
+				INFOPLIST_FILE = "sportsimagelab/NYGvsNYJ-Info.plist";
+				PRODUCT_NAME = NYGvsNYJ;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAF632BD185D8495006E1EE0 /* Build configuration list for PBXProject "sportsimagelab" */ = {
+		EAF632BD185D8495006E1EE0 /* Build configuration list for PBXProject "NYGvsNYJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAF632E3185D8495006E1EE0 /* Debug */,
@@ -314,13 +314,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAF632E5185D8495006E1EE0 /* Build configuration list for PBXNativeTarget "sportsimagelab" */ = {
+		EAF632E5185D8495006E1EE0 /* Build configuration list for PBXNativeTarget "NYGvsNYJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAF632E6185D8495006E1EE0 /* Debug */,
 				EAF632E7185D8495006E1EE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

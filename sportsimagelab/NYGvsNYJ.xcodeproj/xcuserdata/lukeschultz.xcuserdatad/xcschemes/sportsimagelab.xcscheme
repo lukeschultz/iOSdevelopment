@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAF632C1185D8495006E1EE0"
                BuildableName = "sportsimagelab.app"
-               BlueprintName = "sportsimagelab"
-               ReferencedContainer = "container:sportsimagelab.xcodeproj">
+               BlueprintName = "NYGvsNYJ"
+               ReferencedContainer = "container:NYGvsNYJ.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF632C1185D8495006E1EE0"
             BuildableName = "sportsimagelab.app"
-            BlueprintName = "sportsimagelab"
-            ReferencedContainer = "container:sportsimagelab.xcodeproj">
+            BlueprintName = "NYGvsNYJ"
+            ReferencedContainer = "container:NYGvsNYJ.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF632C1185D8495006E1EE0"
             BuildableName = "sportsimagelab.app"
-            BlueprintName = "sportsimagelab"
-            ReferencedContainer = "container:sportsimagelab.xcodeproj">
+            BlueprintName = "NYGvsNYJ"
+            ReferencedContainer = "container:NYGvsNYJ.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAF632C1185D8495006E1EE0"
             BuildableName = "sportsimagelab.app"
-            BlueprintName = "sportsimagelab"
-            ReferencedContainer = "container:sportsimagelab.xcodeproj">
+            BlueprintName = "NYGvsNYJ"
+            ReferencedContainer = "container:NYGvsNYJ.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
