@@ -1,9 +1,9 @@
 //
 //  main.m
-//  NYFootball
+//  task
 //
-//  Created by Luke Schultz on 12/14/13.
-//  Copyright (c) 2013 Luke Schultz. All rights reserved.
+//  Created by Luke Tyler Schultz on 12/3/13.
+//  Copyright (c) 2013 Luke Tyler Schultz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
