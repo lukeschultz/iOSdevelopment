@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA11317E185D7783002E0AE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11317D185D7783002E0AE3 /* UIKit.framework */; };
+		EA113180185D7783002E0AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA11317F185D7783002E0AE3 /* Foundation.framework */; };
+		EA113182185D7783002E0AE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA113181185D7783002E0AE3 /* CoreGraphics.framework */; };
+		EA113188185D7783002E0AE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA113186185D7783002E0AE3 /* InfoPlist.strings */; };
+		EA11318A185D7783002E0AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA113189185D7783002E0AE3 /* main.m */; };
+		EA11318E185D7783002E0AE3 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA11318D185D7783002E0AE3 /* MADAppDelegate.m */; };
+		EA113190185D7783002E0AE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA11318F185D7783002E0AE3 /* Default.png */; };
+		EA113192185D7783002E0AE3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA113191185D7783002E0AE3 /* Default@2x.png */; };
+		EA113194185D7783002E0AE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA113193185D7783002E0AE3 /* Default-568h@2x.png */; };
+		EA113197185D7783002E0AE3 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA113196185D7783002E0AE3 /* MADViewController.m */; };
+		EA11319A185D7783002E0AE3 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA113198185D7783002E0AE3 /* MADViewController.xib */; };
+		EA1131A1185D7814002E0AE3 /* giants.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1131A0185D7814002E0AE3 /* giants.png */; };
+		EA1131A7185D7874002E0AE3 /* nfl.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1131A6185D7874002E0AE3 /* nfl.png */; };
+		EA1131A9185D7960002E0AE3 /* jets.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1131A8185D7960002E0AE3 /* jets.png */; };
+		EA1131AB185D7BDB002E0AE3 /* gvjretina.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1131AA185D7BDB002E0AE3 /* gvjretina.png */; };
+		EA1131AD185D7BEA002E0AE3 /* gvj.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1131AC185D7BEA002E0AE3 /* gvj.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA11317A185D7783002E0AE3 /* NYFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA11317D185D7783002E0AE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA11317F185D7783002E0AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA113181185D7783002E0AE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA113185185D7783002E0AE3 /* NYFootball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NYFootball-Info.plist"; sourceTree = "<group>"; };
+		EA113187185D7783002E0AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA113189185D7783002E0AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA11318B185D7783002E0AE3 /* NYFootball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYFootball-Prefix.pch"; sourceTree = "<group>"; };
+		EA11318C185D7783002E0AE3 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		EA11318D185D7783002E0AE3 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		EA11318F185D7783002E0AE3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA113191185D7783002E0AE3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA113193185D7783002E0AE3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA113195185D7783002E0AE3 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		EA113196185D7783002E0AE3 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		EA113199185D7783002E0AE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		EA1131A0185D7814002E0AE3 /* giants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giants.png; sourceTree = "<group>"; };
+		EA1131A6185D7874002E0AE3 /* nfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl.png; sourceTree = "<group>"; };
+		EA1131A8185D7960002E0AE3 /* jets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jets.png; sourceTree = "<group>"; };
+		EA1131AA185D7BDB002E0AE3 /* gvjretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gvjretina.png; sourceTree = "<group>"; };
+		EA1131AC185D7BEA002E0AE3 /* gvj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gvj.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA113177185D7783002E0AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11317E185D7783002E0AE3 /* UIKit.framework in Frameworks */,
+				EA113180185D7783002E0AE3 /* Foundation.framework in Frameworks */,
+				EA113182185D7783002E0AE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA113171185D7783002E0AE3 = {
+			isa = PBXGroup;
+			children = (
+				EA1131AC185D7BEA002E0AE3 /* gvj.png */,
+				EA1131AA185D7BDB002E0AE3 /* gvjretina.png */,
+				EA113183185D7783002E0AE3 /* NYFootball */,
+				EA11317C185D7783002E0AE3 /* Frameworks */,
+				EA11317B185D7783002E0AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA11317B185D7783002E0AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA11317A185D7783002E0AE3 /* NYFootball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA11317C185D7783002E0AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA11317D185D7783002E0AE3 /* UIKit.framework */,
+				EA11317F185D7783002E0AE3 /* Foundation.framework */,
+				EA113181185D7783002E0AE3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA113183185D7783002E0AE3 /* NYFootball */ = {
+			isa = PBXGroup;
+			children = (
+				EA11318C185D7783002E0AE3 /* MADAppDelegate.h */,
+				EA1131A6185D7874002E0AE3 /* nfl.png */,
+				EA1131A8185D7960002E0AE3 /* jets.png */,
+				EA1131A0185D7814002E0AE3 /* giants.png */,
+				EA11318D185D7783002E0AE3 /* MADAppDelegate.m */,
+				EA113195185D7783002E0AE3 /* MADViewController.h */,
+				EA113196185D7783002E0AE3 /* MADViewController.m */,
+				EA113198185D7783002E0AE3 /* MADViewController.xib */,
+				EA113184185D7783002E0AE3 /* Supporting Files */,
+			);
+			path = NYFootball;
+			sourceTree = "<group>";
+		};
+		EA113184185D7783002E0AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA113185185D7783002E0AE3 /* NYFootball-Info.plist */,
+				EA113186185D7783002E0AE3 /* InfoPlist.strings */,
+				EA113189185D7783002E0AE3 /* main.m */,
+				EA11318B185D7783002E0AE3 /* NYFootball-Prefix.pch */,
+				EA11318F185D7783002E0AE3 /* Default.png */,
+				EA113191185D7783002E0AE3 /* Default@2x.png */,
+				EA113193185D7783002E0AE3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA113179185D7783002E0AE3 /* NYFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA11319D185D7783002E0AE3 /* Build configuration list for PBXNativeTarget "NYFootball" */;
+			buildPhases = (
+				EA113176185D7783002E0AE3 /* Sources */,
+				EA113177185D7783002E0AE3 /* Frameworks */,
+				EA113178185D7783002E0AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYFootball;
+			productName = NYFootball;
+			productReference = EA11317A185D7783002E0AE3 /* NYFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA113172185D7783002E0AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Luke Schultz";
+			};
+			buildConfigurationList = EA113175185D7783002E0AE3 /* Build configuration list for PBXProject "NYFootball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA113171185D7783002E0AE3;
+			productRefGroup = EA11317B185D7783002E0AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA113179185D7783002E0AE3 /* NYFootball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA113178185D7783002E0AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA113188185D7783002E0AE3 /* InfoPlist.strings in Resources */,
+				EA113190185D7783002E0AE3 /* Default.png in Resources */,
+				EA113192185D7783002E0AE3 /* Default@2x.png in Resources */,
+				EA113194185D7783002E0AE3 /* Default-568h@2x.png in Resources */,
+				EA11319A185D7783002E0AE3 /* MADViewController.xib in Resources */,
+				EA1131A1185D7814002E0AE3 /* giants.png in Resources */,
+				EA1131A7185D7874002E0AE3 /* nfl.png in Resources */,
+				EA1131A9185D7960002E0AE3 /* jets.png in Resources */,
+				EA1131AB185D7BDB002E0AE3 /* gvjretina.png in Resources */,
+				EA1131AD185D7BEA002E0AE3 /* gvj.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA113176185D7783002E0AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA11318A185D7783002E0AE3 /* main.m in Sources */,
+				EA11318E185D7783002E0AE3 /* MADAppDelegate.m in Sources */,
+				EA113197185D7783002E0AE3 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA113186185D7783002E0AE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA113187185D7783002E0AE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA113198185D7783002E0AE3 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA113199185D7783002E0AE3 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA11319B185D7783002E0AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EA11319C185D7783002E0AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA11319E185D7783002E0AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYFootball/NYFootball-Prefix.pch";
+				INFOPLIST_FILE = "NYFootball/NYFootball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA11319F185D7783002E0AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYFootball/NYFootball-Prefix.pch";
+				INFOPLIST_FILE = "NYFootball/NYFootball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA113175185D7783002E0AE3 /* Build configuration list for PBXProject "NYFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA11319B185D7783002E0AE3 /* Debug */,
+				EA11319C185D7783002E0AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA11319D185D7783002E0AE3 /* Build configuration list for PBXNativeTarget "NYFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA11319E185D7783002E0AE3 /* Debug */,
+				EA11319F185D7783002E0AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA113172185D7783002E0AE3 /* Project object */;
+}
