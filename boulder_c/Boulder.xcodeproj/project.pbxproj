@@ -35,14 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		889355CF1810363000C2709C /* boulder_c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boulder_c.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889355CF1810363000C2709C /* Boulder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boulder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889355D21810363000C2709C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		889355D41810363000C2709C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		889355D61810363000C2709C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		889355DA1810363000C2709C /* boulder_c-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boulder_c-Info.plist"; sourceTree = "<group>"; };
+		889355DA1810363000C2709C /* Boulder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boulder-Info.plist"; sourceTree = "<group>"; };
 		889355DC1810363000C2709C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		889355DE1810363000C2709C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		889355E01810363000C2709C /* boulder_c-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boulder_c-Prefix.pch"; sourceTree = "<group>"; };
+		889355E01810363000C2709C /* Boulder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boulder-Prefix.pch"; sourceTree = "<group>"; };
 		889355E11810363000C2709C /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
 		889355E21810363000C2709C /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
 		889355E41810363000C2709C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		889355D01810363000C2709C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				889355CF1810363000C2709C /* boulder_c.app */,
+				889355CF1810363000C2709C /* Boulder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,10 +142,10 @@
 		889355D91810363000C2709C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				889355DA1810363000C2709C /* boulder_c-Info.plist */,
+				889355DA1810363000C2709C /* Boulder-Info.plist */,
 				889355DB1810363000C2709C /* InfoPlist.strings */,
 				889355DE1810363000C2709C /* main.m */,
-				889355E01810363000C2709C /* boulder_c-Prefix.pch */,
+				889355E01810363000C2709C /* Boulder-Prefix.pch */,
 				889355E41810363000C2709C /* Default.png */,
 				889355E61810363000C2709C /* Default@2x.png */,
 				889355E81810363000C2709C /* Default-568h@2x.png */,
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		889355CE1810363000C2709C /* boulder_c */ = {
+		889355CE1810363000C2709C /* Boulder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 889356001810363000C2709C /* Build configuration list for PBXNativeTarget "boulder_c" */;
+			buildConfigurationList = 889356001810363000C2709C /* Build configuration list for PBXNativeTarget "Boulder" */;
 			buildPhases = (
 				889355CB1810363000C2709C /* Sources */,
 				889355CC1810363000C2709C /* Frameworks */,
@@ -168,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = boulder_c;
+			name = Boulder;
 			productName = boulder_c;
-			productReference = 889355CF1810363000C2709C /* boulder_c.app */;
+			productReference = 889355CF1810363000C2709C /* Boulder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Luke Tyler Schultz";
 			};
-			buildConfigurationList = 889355CA1810363000C2709C /* Build configuration list for PBXProject "boulder_c" */;
+			buildConfigurationList = 889355CA1810363000C2709C /* Build configuration list for PBXProject "Boulder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				889355CE1810363000C2709C /* boulder_c */,
+				889355CE1810363000C2709C /* Boulder */,
 			);
 		};
 /* End PBXProject section */
@@ -332,10 +332,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boulder_c/boulder_c-Prefix.pch";
-				INFOPLIST_FILE = "boulder_c/boulder_c-Info.plist";
+				GCC_PREFIX_HEADER = "boulder_c/Boulder-Prefix.pch";
+				INFOPLIST_FILE = "boulder_c/Boulder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Boulder;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -345,10 +345,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "boulder_c/boulder_c-Prefix.pch";
-				INFOPLIST_FILE = "boulder_c/boulder_c-Info.plist";
+				GCC_PREFIX_HEADER = "boulder_c/Boulder-Prefix.pch";
+				INFOPLIST_FILE = "boulder_c/Boulder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Boulder;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		889355CA1810363000C2709C /* Build configuration list for PBXProject "boulder_c" */ = {
+		889355CA1810363000C2709C /* Build configuration list for PBXProject "Boulder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				889355FE1810363000C2709C /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		889356001810363000C2709C /* Build configuration list for PBXNativeTarget "boulder_c" */ = {
+		889356001810363000C2709C /* Build configuration list for PBXNativeTarget "Boulder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				889356011810363000C2709C /* Debug */,
