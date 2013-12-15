@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NYFootball.xcscheme</key>
+		<key>sportsimagelab.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EA113179185D7783002E0AE3</key>
+		<key>EAF632C1185D8495006E1EE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
