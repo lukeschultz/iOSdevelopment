@@ -27,14 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA249691185EB11600E6F163 /* media2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = media2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA249691185EB11600E6F163 /* media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = media.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA249694185EB11600E6F163 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA249696185EB11600E6F163 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA249698185EB11600E6F163 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA24969C185EB11600E6F163 /* media2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "media2-Info.plist"; sourceTree = "<group>"; };
+		EA24969C185EB11600E6F163 /* media-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "media-Info.plist"; sourceTree = "<group>"; };
 		EA24969E185EB11600E6F163 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA2496A0185EB11600E6F163 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA2496A2185EB11600E6F163 /* media2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "media2-Prefix.pch"; sourceTree = "<group>"; };
+		EA2496A2185EB11600E6F163 /* media-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "media-Prefix.pch"; sourceTree = "<group>"; };
 		EA2496A3185EB11600E6F163 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
 		EA2496A4185EB11600E6F163 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
 		EA2496A6185EB11600E6F163 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		EA249692185EB11600E6F163 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA249691185EB11600E6F163 /* media2.app */,
+				EA249691185EB11600E6F163 /* media.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,10 +117,10 @@
 		EA24969B185EB11600E6F163 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA24969C185EB11600E6F163 /* media2-Info.plist */,
+				EA24969C185EB11600E6F163 /* media-Info.plist */,
 				EA24969D185EB11600E6F163 /* InfoPlist.strings */,
 				EA2496A0185EB11600E6F163 /* main.m */,
-				EA2496A2185EB11600E6F163 /* media2-Prefix.pch */,
+				EA2496A2185EB11600E6F163 /* media-Prefix.pch */,
 				EA2496A6185EB11600E6F163 /* Default.png */,
 				EA2496A8185EB11600E6F163 /* Default@2x.png */,
 				EA2496AA185EB11600E6F163 /* Default-568h@2x.png */,
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA249690185EB11600E6F163 /* media2 */ = {
+		EA249690185EB11600E6F163 /* media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA2496B4185EB11600E6F163 /* Build configuration list for PBXNativeTarget "media2" */;
+			buildConfigurationList = EA2496B4185EB11600E6F163 /* Build configuration list for PBXNativeTarget "media" */;
 			buildPhases = (
 				EA24968D185EB11600E6F163 /* Sources */,
 				EA24968E185EB11600E6F163 /* Frameworks */,
@@ -143,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = media2;
+			name = media;
 			productName = media2;
-			productReference = EA249691185EB11600E6F163 /* media2.app */;
+			productReference = EA249691185EB11600E6F163 /* media.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Luke Schultz";
 			};
-			buildConfigurationList = EA24968C185EB11600E6F163 /* Build configuration list for PBXProject "media2" */;
+			buildConfigurationList = EA24968C185EB11600E6F163 /* Build configuration list for PBXProject "media" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA249690185EB11600E6F163 /* media2 */,
+				EA249690185EB11600E6F163 /* media */,
 			);
 		};
 /* End PBXProject section */
@@ -286,9 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "media2/media2-Prefix.pch";
-				INFOPLIST_FILE = "media2/media2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "media2/media-Prefix.pch";
+				INFOPLIST_FILE = "media2/media-Info.plist";
+				PRODUCT_NAME = media;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -297,9 +297,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "media2/media2-Prefix.pch";
-				INFOPLIST_FILE = "media2/media2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "media2/media-Prefix.pch";
+				INFOPLIST_FILE = "media2/media-Info.plist";
+				PRODUCT_NAME = media;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA24968C185EB11600E6F163 /* Build configuration list for PBXProject "media2" */ = {
+		EA24968C185EB11600E6F163 /* Build configuration list for PBXProject "media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA2496B2185EB11600E6F163 /* Debug */,
@@ -316,13 +316,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA2496B4185EB11600E6F163 /* Build configuration list for PBXNativeTarget "media2" */ = {
+		EA2496B4185EB11600E6F163 /* Build configuration list for PBXNativeTarget "media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA2496B5185EB11600E6F163 /* Debug */,
 				EA2496B6185EB11600E6F163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

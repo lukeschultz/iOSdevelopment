@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:media2.xcodeproj">
+      location = "self:media.xcodeproj">
    </FileRef>
 </Workspace>

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA249690185EB11600E6F163"
                BuildableName = "media2.app"
-               BlueprintName = "media2"
-               ReferencedContainer = "container:media2.xcodeproj">
+               BlueprintName = "media"
+               ReferencedContainer = "container:media.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA249690185EB11600E6F163"
             BuildableName = "media2.app"
-            BlueprintName = "media2"
-            ReferencedContainer = "container:media2.xcodeproj">
+            BlueprintName = "media"
+            ReferencedContainer = "container:media.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA249690185EB11600E6F163"
             BuildableName = "media2.app"
-            BlueprintName = "media2"
-            ReferencedContainer = "container:media2.xcodeproj">
+            BlueprintName = "media"
+            ReferencedContainer = "container:media.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA249690185EB11600E6F163"
             BuildableName = "media2.app"
-            BlueprintName = "media2"
-            ReferencedContainer = "container:media2.xcodeproj">
+            BlueprintName = "media"
+            ReferencedContainer = "container:media.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
