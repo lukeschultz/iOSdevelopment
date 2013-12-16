@@ -12,8 +12,11 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="newbrew.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q8m-Sa-B7R"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="newbrewbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q8m-Sa-B7R"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hia-dR-4UU">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="Y6b-Wc-fGP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Take a Photo">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -36,12 +39,12 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9IP-na-feD" kind="modal" id="MKR-Df-wXq"/>
+                                    <segue destination="rkf-74-0o2" kind="modal" id="JT3-Ik-ihf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yn-TS-baj">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="TOP BEERS">
+                                <state key="normal" title="TOP RATED BEERS">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -56,16 +59,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Q8m-Sa-B7R" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="058-Is-ubh"/>
-                            <constraint firstItem="Q8m-Sa-B7R" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="6rh-UY-CuY"/>
                             <constraint firstItem="1Yn-TS-baj" firstAttribute="top" secondItem="3" secondAttribute="top" constant="162" id="9Sg-cV-QjV"/>
                             <constraint firstItem="U0x-2Q-zPP" firstAttribute="leading" secondItem="1Yn-TS-baj" secondAttribute="leading" type="default" id="D2M-T5-Csh"/>
                             <constraint firstItem="U0x-2Q-zPP" firstAttribute="trailing" secondItem="1Yn-TS-baj" secondAttribute="trailing" type="default" id="EO9-9K-VHO"/>
-                            <constraint firstItem="U0x-2Q-zPP" firstAttribute="leading" secondItem="Hia-dR-4UU" secondAttribute="leading" type="default" id="FhK-j9-9mK"/>
                             <constraint firstAttribute="bottom" secondItem="U0x-2Q-zPP" secondAttribute="bottom" constant="207" id="OIW-W2-UOK"/>
-                            <constraint firstItem="Hia-dR-4UU" firstAttribute="trailing" secondItem="U0x-2Q-zPP" secondAttribute="trailing" type="default" id="ZqM-oc-yIn"/>
-                            <constraint firstItem="1Yn-TS-baj" firstAttribute="centerX" secondItem="Q8m-Sa-B7R" secondAttribute="centerX" type="default" id="aAV-GL-CNl"/>
+                            <constraint firstItem="Q8m-Sa-B7R" firstAttribute="centerX" secondItem="1Yn-TS-baj" secondAttribute="centerX" type="default" id="ei0-Wo-Afq"/>
                             <constraint firstAttribute="bottom" secondItem="Hia-dR-4UU" secondAttribute="bottom" constant="69" id="fpC-DW-IRR"/>
                             <constraint firstItem="Q8m-Sa-B7R" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="fta-Hx-Dvf"/>
+                            <constraint firstItem="Hia-dR-4UU" firstAttribute="centerX" secondItem="U0x-2Q-zPP" secondAttribute="centerX" type="default" id="qlc-oz-aU7"/>
                             <constraint firstItem="Q8m-Sa-B7R" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="rtQ-sT-vLF"/>
                         </constraints>
                     </view>
@@ -73,49 +74,121 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Iu9-WL-fOy">
+        <!--Beer View Controller-->
+        <scene sceneID="BFW-Oc-a9q">
             <objects>
-                <viewController id="9IP-na-feD" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dn2-Fj-AG2">
+                <viewController id="rkf-74-0o2" customClass="BeerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wto-d3-q5a">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Favorite Beers List" translatesAutoresizingMaskIntoConstraints="NO" id="E8q-HF-nIl">
-                                <color key="backgroundColor" red="0.80000000000000004" green="0.59999999999999998" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="brownback.png" translatesAutoresizingMaskIntoConstraints="NO" id="kE3-J1-UNF">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="334" id="0By-Yt-a2o"/>
+                                    <constraint firstAttribute="width" constant="327" id="lmd-ac-1M8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Beer #1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QU-SH-2a4">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="r6l-5Y-Hsg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ENy-WG-J5w">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="Hqh-7L-zdr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkD-kd-XXG">
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Beer #2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBw-IX-j1t">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bh4-f3-uJR">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Beer #3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVq-B4-ffk">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="06q-s6-jYm">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Beer #4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz3-QI-yag">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FqA-Or-kwm">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbH-lU-VvE">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HWT-9Q-96s" kind="unwind" unwindAction="returned:" id="B0Z-VZ-hFB"/>
+                                    <segue destination="snq-Qy-3wg" kind="unwind" unwindAction="returned:" id="MWS-Cp-Uge"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="FkD-kd-XXG" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="4Gl-Kw-Fly"/>
-                            <constraint firstItem="E8q-HF-nIl" firstAttribute="leading" secondItem="dn2-Fj-AG2" secondAttribute="leading" type="default" id="NAg-cQ-HmK"/>
-                            <constraint firstItem="E8q-HF-nIl" firstAttribute="top" secondItem="dn2-Fj-AG2" secondAttribute="top" constant="68" id="ljc-86-kWi"/>
-                            <constraint firstAttribute="trailing" secondItem="FkD-kd-XXG" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="tfT-nf-WMF"/>
-                            <constraint firstItem="E8q-HF-nIl" firstAttribute="trailing" secondItem="dn2-Fj-AG2" secondAttribute="trailing" type="default" id="xU5-Tm-Jmo"/>
+                            <constraint firstItem="ENy-WG-J5w" firstAttribute="leading" secondItem="wto-d3-q5a" secondAttribute="leading" constant="104" id="5Y3-Kt-42N"/>
+                            <constraint firstItem="kE3-J1-UNF" firstAttribute="bottom" secondItem="wto-d3-q5a" secondAttribute="bottom" type="default" id="5bm-TL-6d9"/>
+                            <constraint firstItem="9QU-SH-2a4" firstAttribute="top" secondItem="wto-d3-q5a" secondAttribute="top" constant="89" id="83Z-xA-SEh"/>
+                            <constraint firstItem="06q-s6-jYm" firstAttribute="top" secondItem="bh4-f3-uJR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="8Z9-zg-eTf"/>
+                            <constraint firstItem="FqA-Or-kwm" firstAttribute="top" secondItem="Dz3-QI-yag" secondAttribute="top" type="default" id="93e-jO-VsN"/>
+                            <constraint firstItem="bh4-f3-uJR" firstAttribute="top" secondItem="ENy-WG-J5w" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Aa4-ez-A9h"/>
+                            <constraint firstItem="FqA-Or-kwm" firstAttribute="top" secondItem="06q-s6-jYm" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="BTt-Ar-ieV"/>
+                            <constraint firstItem="sVq-B4-ffk" firstAttribute="top" secondItem="06q-s6-jYm" secondAttribute="top" type="default" id="CdU-Pe-NWv"/>
+                            <constraint firstItem="sVq-B4-ffk" firstAttribute="trailing" secondItem="Dz3-QI-yag" secondAttribute="trailing" type="default" id="D6J-TK-Lhr"/>
+                            <constraint firstItem="06q-s6-jYm" firstAttribute="leading" secondItem="FqA-Or-kwm" secondAttribute="leading" type="default" id="Ddc-8Y-tTb"/>
+                            <constraint firstItem="nbH-lU-VvE" firstAttribute="top" secondItem="wto-d3-q5a" secondAttribute="top" constant="20" symbolic="YES" type="default" id="GKx-XK-tvi"/>
+                            <constraint firstItem="tBw-IX-j1t" firstAttribute="top" secondItem="9QU-SH-2a4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="I1Q-9s-BRP"/>
+                            <constraint firstItem="Dz3-QI-yag" firstAttribute="bottom" secondItem="FqA-Or-kwm" secondAttribute="bottom" type="default" id="LHO-tF-hah"/>
+                            <constraint firstItem="sVq-B4-ffk" firstAttribute="top" secondItem="tBw-IX-j1t" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Lc8-wE-Ngs"/>
+                            <constraint firstItem="tBw-IX-j1t" firstAttribute="leading" secondItem="sVq-B4-ffk" secondAttribute="leading" type="default" id="PLf-rO-HSP"/>
+                            <constraint firstItem="kE3-J1-UNF" firstAttribute="top" secondItem="wto-d3-q5a" secondAttribute="top" type="default" id="QOy-Za-u3z"/>
+                            <constraint firstItem="nbH-lU-VvE" firstAttribute="centerX" secondItem="wto-d3-q5a" secondAttribute="centerX" type="default" id="RXK-RA-vWp"/>
+                            <constraint firstItem="tBw-IX-j1t" firstAttribute="top" secondItem="bh4-f3-uJR" secondAttribute="top" type="default" id="Txb-3x-kpB"/>
+                            <constraint firstItem="bh4-f3-uJR" firstAttribute="leading" secondItem="ENy-WG-J5w" secondAttribute="leading" type="default" id="VrT-VT-wJF"/>
+                            <constraint firstItem="9QU-SH-2a4" firstAttribute="top" secondItem="ENy-WG-J5w" secondAttribute="top" type="default" id="aq2-9n-bGY"/>
+                            <constraint firstItem="9QU-SH-2a4" firstAttribute="leading" secondItem="wto-d3-q5a" secondAttribute="leading" constant="15" id="bUj-CV-7Pc"/>
+                            <constraint firstItem="sVq-B4-ffk" firstAttribute="trailing" secondItem="tBw-IX-j1t" secondAttribute="trailing" type="default" id="iYp-7i-D2p"/>
+                            <constraint firstItem="FqA-Or-kwm" firstAttribute="trailing" secondItem="06q-s6-jYm" secondAttribute="trailing" type="default" id="jKT-wG-h3L"/>
+                            <constraint firstItem="tBw-IX-j1t" firstAttribute="trailing" secondItem="9QU-SH-2a4" secondAttribute="trailing" type="default" id="kne-Gc-nMK"/>
+                            <constraint firstItem="06q-s6-jYm" firstAttribute="trailing" secondItem="bh4-f3-uJR" secondAttribute="trailing" type="default" id="mOo-9M-v5t"/>
+                            <constraint firstItem="bh4-f3-uJR" firstAttribute="trailing" secondItem="ENy-WG-J5w" secondAttribute="trailing" type="default" id="mhx-fZ-4le"/>
+                            <constraint firstItem="tBw-IX-j1t" firstAttribute="leading" secondItem="9QU-SH-2a4" secondAttribute="leading" type="default" id="qLJ-sH-qHV"/>
+                            <constraint firstItem="Dz3-QI-yag" firstAttribute="top" secondItem="sVq-B4-ffk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="sUO-TR-GRY"/>
+                            <constraint firstItem="06q-s6-jYm" firstAttribute="leading" secondItem="bh4-f3-uJR" secondAttribute="leading" type="default" id="u3u-Ib-QhC"/>
+                            <constraint firstItem="kE3-J1-UNF" firstAttribute="trailing" secondItem="wto-d3-q5a" secondAttribute="trailing" type="default" id="ymf-om-U9G"/>
+                            <constraint firstItem="Dz3-QI-yag" firstAttribute="leading" secondItem="sVq-B4-ffk" secondAttribute="leading" type="default" id="zz7-t4-79f"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="task1" destination="ENy-WG-J5w" id="aRH-0r-VhU"/>
+                        <outlet property="task2" destination="bh4-f3-uJR" id="haS-mY-mwE"/>
+                        <outlet property="task3" destination="06q-s6-jYm" id="ded-DQ-30f"/>
+                        <outlet property="task4" destination="FqA-Or-kwm" id="UCl-ZY-2XK"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="m1V-bL-oFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="HWT-9Q-96s" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="id8-f9-6Nt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="snq-Qy-3wg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="68" y="774"/>
+            <point key="canvasLocation" x="125" y="739"/>
         </scene>
         <!--Scene3 View Controller-->
         <scene sceneID="mKp-YE-3Aa">
@@ -217,9 +290,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="newbrew.png" width="640" height="1136"/>
+        <image name="brownback.png" width="320" height="480"/>
+        <image name="newbrewbg.png" width="320" height="480"/>
     </resources>
     <classes>
+        <class className="BeerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BeerViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="task1" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="task2" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="task3" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="task4" candidateClass="UITextField"/>
+            </relationships>
+        </class>
         <class className="MADViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MADViewController.h"/>
         </class>

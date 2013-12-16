@@ -13,6 +13,11 @@
 		EA8D9E54185F2AD8009E1204 /* newbrewscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E53185F2AD8009E1204 /* newbrewscreen.png */; };
 		EA8D9E56185F2DE0009E1204 /* newbrewretina.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E55185F2DE0009E1204 /* newbrewretina.png */; };
 		EA8D9E58185F2DEB009E1204 /* newbrewi.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E57185F2DEB009E1204 /* newbrewi.png */; };
+		EA8D9E5A185F8899009E1204 /* newbrewsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E59185F8899009E1204 /* newbrewsmall.png */; };
+		EA8D9E5C185F89E7009E1204 /* newbrewbg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E5B185F89E6009E1204 /* newbrewbg.png */; };
+		EA8D9E5F185F8B28009E1204 /* BeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8D9E5E185F8B28009E1204 /* BeerViewController.m */; };
+		EA8D9E62185F8C4A009E1204 /* MADArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8D9E61185F8C4A009E1204 /* MADArchive.m */; };
+		EA8D9E64185F916F009E1204 /* brownback.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E63185F916F009E1204 /* brownback.png */; };
 		EAF42270185EFBFC00F6EBE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF4226F185EFBFC00F6EBE0 /* UIKit.framework */; };
 		EAF42272185EFBFC00F6EBE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF42271185EFBFC00F6EBE0 /* Foundation.framework */; };
 		EAF42274185EFBFC00F6EBE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF42273185EFBFC00F6EBE0 /* CoreGraphics.framework */; };
@@ -38,6 +43,13 @@
 		EA8D9E53185F2AD8009E1204 /* newbrewscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewscreen.png; sourceTree = "<group>"; };
 		EA8D9E55185F2DE0009E1204 /* newbrewretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewretina.png; sourceTree = "<group>"; };
 		EA8D9E57185F2DEB009E1204 /* newbrewi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewi.png; sourceTree = "<group>"; };
+		EA8D9E59185F8899009E1204 /* newbrewsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewsmall.png; sourceTree = "<group>"; };
+		EA8D9E5B185F89E6009E1204 /* newbrewbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewbg.png; sourceTree = "<group>"; };
+		EA8D9E5D185F8B28009E1204 /* BeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerViewController.h; sourceTree = "<group>"; };
+		EA8D9E5E185F8B28009E1204 /* BeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerViewController.m; sourceTree = "<group>"; };
+		EA8D9E60185F8C4A009E1204 /* MADArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADArchive.h; sourceTree = "<group>"; };
+		EA8D9E61185F8C4A009E1204 /* MADArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADArchive.m; sourceTree = "<group>"; };
+		EA8D9E63185F916F009E1204 /* brownback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownback.png; sourceTree = "<group>"; };
 		EAF4226C185EFBFC00F6EBE0 /* NewBrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewBrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF4226F185EFBFC00F6EBE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAF42271185EFBFC00F6EBE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,8 +93,11 @@
 		EAF42263185EFBFC00F6EBE0 = {
 			isa = PBXGroup;
 			children = (
+				EA8D9E63185F916F009E1204 /* brownback.png */,
 				EA8D9E57185F2DEB009E1204 /* newbrewi.png */,
+				EA8D9E5B185F89E6009E1204 /* newbrewbg.png */,
 				EA8D9E55185F2DE0009E1204 /* newbrewretina.png */,
+				EA8D9E59185F8899009E1204 /* newbrewsmall.png */,
 				EA8D9E51185F2ACF009E1204 /* newbrewscreen.png */,
 				EAF42299185EFFED00F6EBE0 /* AVFoundation.framework */,
 				EAF42297185EFFE700F6EBE0 /* MediaPlayer.framework */,
@@ -119,6 +134,10 @@
 				EAF4227F185EFBFC00F6EBE0 /* MADAppDelegate.m */,
 				EA8D9E53185F2AD8009E1204 /* newbrewscreen.png */,
 				EAF42287185EFBFC00F6EBE0 /* MainStoryboard.storyboard */,
+				EA8D9E5D185F8B28009E1204 /* BeerViewController.h */,
+				EA8D9E5E185F8B28009E1204 /* BeerViewController.m */,
+				EA8D9E60185F8C4A009E1204 /* MADArchive.h */,
+				EA8D9E61185F8C4A009E1204 /* MADArchive.m */,
 				EA8D9E46185F0E0C009E1204 /* Scene3ViewController.h */,
 				EA8D9E47185F0E0C009E1204 /* Scene3ViewController.m */,
 				EAF4229B185F05D200F6EBE0 /* Scene2ViewController.h */,
@@ -206,6 +225,9 @@
 				EA8D9E54185F2AD8009E1204 /* newbrewscreen.png in Resources */,
 				EA8D9E56185F2DE0009E1204 /* newbrewretina.png in Resources */,
 				EA8D9E58185F2DEB009E1204 /* newbrewi.png in Resources */,
+				EA8D9E5A185F8899009E1204 /* newbrewsmall.png in Resources */,
+				EA8D9E5C185F89E7009E1204 /* newbrewbg.png in Resources */,
+				EA8D9E64185F916F009E1204 /* brownback.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +243,8 @@
 				EAF4228C185EFBFC00F6EBE0 /* MADViewController.m in Sources */,
 				EAF4229D185F05D200F6EBE0 /* Scene2ViewController.m in Sources */,
 				EA8D9E48185F0E0C009E1204 /* Scene3ViewController.m in Sources */,
+				EA8D9E5F185F8B28009E1204 /* BeerViewController.m in Sources */,
+				EA8D9E62185F8C4A009E1204 /* MADArchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
