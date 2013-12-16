@@ -2,11 +2,13 @@
 //  Scene2ViewController.m
 //  favorites
 //
-//  Created by Luke Schultz on 10/15/13.
+//  Created by Luke Schultz on 12/15/13.
 //  Copyright (c) 2013 Luke Schultz. All rights reserved.
 //
 
 #import "Scene2ViewController.h"
+#import "favorite.h"
+#import "MADViewController.h"
 
 @interface Scene2ViewController ()
 
@@ -14,11 +16,12 @@
 
 @implementation Scene2ViewController
 
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"doneFavs"]) {
         _userInfo.favBook=_userBook.text;
         _userInfo.favAuthor=_userAuthor.text;
-        MADViewController *scene1ViewController=[segue destinationViewController];
+MADViewController *scene1ViewController=[segue destinationViewController];
         scene1ViewController.user.favBook=_userInfo.favBook;
         scene1ViewController.user.favAuthor=_userInfo.favAuthor;
     }

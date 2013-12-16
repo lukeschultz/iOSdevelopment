@@ -2,7 +2,7 @@
 //  MADViewController.m
 //  favorites
 //
-//  Created by Luke Schultz on 10/15/13.
+//  Created by Luke Schultz on 12/15/13.
 //  Copyright (c) 2013 Luke Schultz. All rights reserved.
 //
 
@@ -22,13 +22,13 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    _favBook.text=_user.favBook;
-    _favAuthor.text=_user.favAuthor;
+    _bookLabel.text=_user.favBook;
+    _authorLabel.text=_user.favAuthor;
 }
 
 -(IBAction)returned:(UIStoryboardSegue *)segue {
-    _favBook.text=_user.favBook;
-    _favAuthor.text=_user.favAuthor;
+    _bookLabel.text=_user.favBook;
+    _authorLabel.text=_user.favAuthor;
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,3 +38,4 @@
 }
 
 @end
+
