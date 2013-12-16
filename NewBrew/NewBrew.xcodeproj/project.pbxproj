@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EA8D9E48185F0E0C009E1204 /* Scene3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8D9E47185F0E0C009E1204 /* Scene3ViewController.m */; };
 		EA8D9E50185F2939009E1204 /* newbrew.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E4F185F2939009E1204 /* newbrew.png */; };
-		EA8D9E52185F2ACF009E1204 /* newbrewscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E51185F2ACF009E1204 /* newbrewscreen.png */; };
 		EA8D9E54185F2AD8009E1204 /* newbrewscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E53185F2AD8009E1204 /* newbrewscreen.png */; };
 		EA8D9E56185F2DE0009E1204 /* newbrewretina.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E55185F2DE0009E1204 /* newbrewretina.png */; };
 		EA8D9E58185F2DEB009E1204 /* newbrewi.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D9E57185F2DEB009E1204 /* newbrewi.png */; };
@@ -39,7 +38,6 @@
 		EA8D9E46185F0E0C009E1204 /* Scene3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene3ViewController.h; sourceTree = "<group>"; };
 		EA8D9E47185F0E0C009E1204 /* Scene3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene3ViewController.m; sourceTree = "<group>"; };
 		EA8D9E4F185F2939009E1204 /* newbrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrew.png; sourceTree = "<group>"; };
-		EA8D9E51185F2ACF009E1204 /* newbrewscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewscreen.png; sourceTree = "<group>"; };
 		EA8D9E53185F2AD8009E1204 /* newbrewscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewscreen.png; sourceTree = "<group>"; };
 		EA8D9E55185F2DE0009E1204 /* newbrewretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewretina.png; sourceTree = "<group>"; };
 		EA8D9E57185F2DEB009E1204 /* newbrewi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbrewi.png; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				EA8D9E5B185F89E6009E1204 /* newbrewbg.png */,
 				EA8D9E55185F2DE0009E1204 /* newbrewretina.png */,
 				EA8D9E59185F8899009E1204 /* newbrewsmall.png */,
-				EA8D9E51185F2ACF009E1204 /* newbrewscreen.png */,
 				EAF42299185EFFED00F6EBE0 /* AVFoundation.framework */,
 				EAF42297185EFFE700F6EBE0 /* MediaPlayer.framework */,
 				EAF42295185EFFE000F6EBE0 /* MobileCoreServices.framework */,
@@ -221,7 +218,6 @@
 				EAF42286185EFBFC00F6EBE0 /* Default-568h@2x.png in Resources */,
 				EAF42289185EFBFC00F6EBE0 /* MainStoryboard.storyboard in Resources */,
 				EA8D9E50185F2939009E1204 /* newbrew.png in Resources */,
-				EA8D9E52185F2ACF009E1204 /* newbrewscreen.png in Resources */,
 				EA8D9E54185F2AD8009E1204 /* newbrewscreen.png in Resources */,
 				EA8D9E56185F2DE0009E1204 /* newbrewretina.png in Resources */,
 				EA8D9E58185F2DEB009E1204 /* newbrewi.png in Resources */,
