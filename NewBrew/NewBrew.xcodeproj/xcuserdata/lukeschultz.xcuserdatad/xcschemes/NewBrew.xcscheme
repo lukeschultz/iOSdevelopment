@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA249690185EB11600E6F163"
-               BuildableName = "media.app"
-               BlueprintName = "media"
-               ReferencedContainer = "container:media.xcodeproj">
+               BlueprintIdentifier = "EAF4226B185EFBFC00F6EBE0"
+               BuildableName = "NewBrew.app"
+               BlueprintName = "NewBrew"
+               ReferencedContainer = "container:NewBrew.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA249690185EB11600E6F163"
-            BuildableName = "media.app"
-            BlueprintName = "media"
-            ReferencedContainer = "container:media.xcodeproj">
+            BlueprintIdentifier = "EAF4226B185EFBFC00F6EBE0"
+            BuildableName = "NewBrew.app"
+            BlueprintName = "NewBrew"
+            ReferencedContainer = "container:NewBrew.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA249690185EB11600E6F163"
-            BuildableName = "media.app"
-            BlueprintName = "media"
-            ReferencedContainer = "container:media.xcodeproj">
+            BlueprintIdentifier = "EAF4226B185EFBFC00F6EBE0"
+            BuildableName = "NewBrew.app"
+            BlueprintName = "NewBrew"
+            ReferencedContainer = "container:NewBrew.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA249690185EB11600E6F163"
-            BuildableName = "media.app"
-            BlueprintName = "media"
-            ReferencedContainer = "container:media.xcodeproj">
+            BlueprintIdentifier = "EAF4226B185EFBFC00F6EBE0"
+            BuildableName = "NewBrew.app"
+            BlueprintName = "NewBrew"
+            ReferencedContainer = "container:NewBrew.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

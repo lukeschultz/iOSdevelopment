@@ -123,23 +123,30 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4R-S3-tiE">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="FUm-S4-qYr" firstAttribute="top" secondItem="PbS-qu-rEz" secondAttribute="top" constant="156" id="0fT-aR-VBk"/>
                             <constraint firstItem="3D6-rE-riB" firstAttribute="leading" secondItem="7Y2-EJ-sUV" secondAttribute="leading" type="default" id="8u1-Gy-fQa"/>
+                            <constraint firstItem="h4R-S3-tiE" firstAttribute="leading" secondItem="FUm-S4-qYr" secondAttribute="leading" type="default" id="DTA-yB-7UZ"/>
                             <constraint firstAttribute="trailing" secondItem="7Y2-EJ-sUV" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="E8Y-dv-aid"/>
+                            <constraint firstItem="h4R-S3-tiE" firstAttribute="baseline" secondItem="5mM-nG-ssR" secondAttribute="baseline" type="default" id="HSg-cu-6XK"/>
                             <constraint firstItem="5mM-nG-ssR" firstAttribute="top" secondItem="FUm-S4-qYr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="L0F-iF-3bO"/>
                             <constraint firstItem="i7S-QH-PYc" firstAttribute="top" secondItem="PbS-qu-rEz" secondAttribute="top" type="default" id="N0X-QY-YLJ"/>
                             <constraint firstItem="ivT-2N-n1M" firstAttribute="leading" secondItem="FUm-S4-qYr" secondAttribute="leading" type="default" id="QSG-Pw-Bc8"/>
+                            <constraint firstAttribute="trailing" secondItem="h4R-S3-tiE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="R0n-m5-PTH"/>
                             <constraint firstItem="ivT-2N-n1M" firstAttribute="centerX" secondItem="i7S-QH-PYc" secondAttribute="centerX" type="default" id="YeD-8R-DMl"/>
                             <constraint firstItem="i7S-QH-PYc" firstAttribute="trailing" secondItem="PbS-qu-rEz" secondAttribute="trailing" type="default" id="aXm-os-j9X"/>
                             <constraint firstItem="3D6-rE-riB" firstAttribute="top" secondItem="PbS-qu-rEz" secondAttribute="top" constant="256" id="cg6-dF-NWj"/>
                             <constraint firstItem="5mM-nG-ssR" firstAttribute="leading" secondItem="3D6-rE-riB" secondAttribute="leading" type="default" id="dU8-PD-Jh7"/>
                             <constraint firstItem="FUm-S4-qYr" firstAttribute="trailing" secondItem="3D6-rE-riB" secondAttribute="trailing" type="default" id="dqH-dr-OXQ"/>
+                            <constraint firstItem="h4R-S3-tiE" firstAttribute="leading" secondItem="5mM-nG-ssR" secondAttribute="leading" type="default" id="enx-tx-rY9"/>
                             <constraint firstItem="i7S-QH-PYc" firstAttribute="leading" secondItem="PbS-qu-rEz" secondAttribute="leading" type="default" id="hc2-QP-smI"/>
                             <constraint firstAttribute="trailing" secondItem="5mM-nG-ssR" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rXE-Ho-tw1"/>
-                            <constraint firstItem="5mM-nG-ssR" firstAttribute="leading" secondItem="FUm-S4-qYr" secondAttribute="leading" type="default" id="toZ-cy-C7L"/>
                             <constraint firstItem="ivT-2N-n1M" firstAttribute="top" secondItem="PbS-qu-rEz" secondAttribute="top" constant="62" id="wDy-M4-XxH"/>
                             <constraint firstItem="7Y2-EJ-sUV" firstAttribute="top" secondItem="3D6-rE-riB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wyr-0R-FJM"/>
                         </constraints>
